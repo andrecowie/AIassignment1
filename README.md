@@ -7,12 +7,28 @@ a)
 
 ![alt text](./images/image4.png "logo1")
 
-	This is the surface for the base fuzzy logic system.
-	I think that for its simplicity in the number of variables, it does a good job in deciding on a logical wash time length.
-	I find it interesting how this rule base finds that when the type of dirt is more greasy it outputs a longer wash time, than when the level of dirt is higher.
-	What I find interesting about this is that if there is zero dirtiness on the clothes but somehow the type of dirt is very greasy then the wash time will be long.
-	However, when the clothes are very dirty (10) but the type of dirt is not greasy then the wash time will be shorter than if the clothes have almost no dirt but the dirt is greasy.
-	I feel that this is intrinsically wrong given my knowledge of washing clothes.
+This is the surface for the base fuzzy logic system.
+
+I think that for its simplicity in the number of variables and rules, it does a good job in deciding on a logical wash time length.
+
+I find it interesting how this rule base finds that when the type of dirt is more greasy it outputs a longer wash time, than when the level of dirt is higher.
+
+What I find interesting about this is that if there is zero dirtiness on the clothes, but somehow the type of dirt is very greasy then the wash time will be long.
+
+However, when the clothes are very dirty (10) but the type of dirt is not greasy then the wash time will be shorter than if the clothes have almost no dirt but the dirt is greasy.
+
+I feel that this is intrinsically wrong given my knowledge of washing clothes.
+
+I think that the amount of dirt would impact the wash time more, than the amount of grease in the dirt.
+
+Potentially I could introduce another output variable, wash heat/temprature.
+
+The reason being i think that ranges in temprature would combat grease better than having a longer wash time.
+
+Then look into changing the rules sets to have the wash time more stable for greasy and none greasy clothes. And making the amount of dirtiness impact the wash length in a more stable way.
+
+I think this would make the Machine have a higher quality wash and provide better customizability to enable faster washes when necassary.
+
 b)
 
 	Wash time for different loads based on this fuzzy system
